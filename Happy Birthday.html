@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <img src="devaki linkedin-yellow1.png" alt="devaki" class="birth" title="devaki">
+
+        <div class="text">
+            <h1>
+                <span class="left">Happy Birthday</span>
+                <span class="right">Devaki<span class="exclamation">!!</span>
+            </h1>
+        </div>
+
+        <div class="typing-text">
+            <p>You are a great person. You mean a lot to me.</p>
+        </div>
+        <p class="sub">-stranger</p>
+    </div>
+
+
+    <script src="confetti.js"></script>
+  
+    <script>
+        const start = () => {
+            setTimeout(function () {
+                confetti.start()
+            }, 2000); 
+        };
+
+        const stop = () => {
+            setTimeout(function () {
+                confetti.stop()
+            }, 6000); 
+        };
+
+        start();
+        stop();
+    </script>
+</body>
+
+</html>
